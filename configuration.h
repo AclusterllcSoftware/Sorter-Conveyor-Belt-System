@@ -1,0 +1,29 @@
+#ifndef CONFIGURATION_H
+#define CONFIGURATION_H
+
+#include <stdbool.h>
+
+#define MAX_LEN 100
+#define MAX_WIDE 100
+#define MAX_HEIGHT 100
+#define MAX_GG_LOCATION_X 100
+#define MAX_GG_LOCATION_Y 100
+#define MIN_GG_LOCATION_X -100
+#define MIN_GG_LOCATION_Y -100
+#define MAX_BINS 10
+#define BIN_FULL_MAX 5
+#define BIN_ENCODER_TICKS 100
+#define MIN_LEADING_GAP 1
+#define MIN_TRAILING_GAP 1
+#define MAX_CONVEYOR_CAPACITY 40
+#define MAX_DIVERT_NUMBER 8
+
+typedef enum {
+    NO_ERROR = 0,
+    DIMENSION_EXCEED = 2,
+    GEOLOCATION_INVALID = 3,
+    LEADING_GAP = 4,
+    TRAILING_GAP = 5
+} ErrorCode;
+
+#endif /* CONFIGURATION_H */
