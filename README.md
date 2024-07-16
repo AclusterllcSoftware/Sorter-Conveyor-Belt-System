@@ -1,4 +1,4 @@
-> Flow chart of Conveyor machine
+## Flow chart of Conveyor machine
 
 **Start**
 
@@ -17,7 +17,7 @@ While Conveyor Belt is Running:
 <img src="./wkqnxem5.png"
 style="width:4.61458in;height:9.34375in" />
 
-Sorter Conveyor Belt System Design
+## Sorter Conveyor Belt System Design
 
 The following document outlines the design and functionality of the
 sorter conveyor belt system, which is tasked with providing 6500
@@ -28,14 +28,14 @@ full. The system operates in two modes: "Accumulation Mode" and "Slag
 Mode." Furthermore, it incorporates gap optimization functionalities to
 manage forward and backward gaps in product flow.
 
-> System Overview
+## System Overview
 
 The sorter conveyor belt system is designed to achieve a throughput of
 6500 products per hour. This is accomplished through the utilization of
 Backbone 1 and Backbone 2 conveyor belts, which supply products to the
 sorter.
 
-> Load Management Architecture
+### Load Management Architecture
 
 To ensure the sorter remains full and operational, a load management
 architecture has to be implemented. This architecture monitors the
@@ -44,7 +44,7 @@ accordingly. During the Accumulation Mode, the system actively provides
 products from the backbone conveyor belts to maintain a consistent flow
 into the sorter.
 
-Operating Modes
+#### Operating Modes
 
 a\. Accumulation Mode:
 
